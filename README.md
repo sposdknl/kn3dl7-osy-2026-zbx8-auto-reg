@@ -1,5 +1,7 @@
 # OSY: automatická registrace Debianu 13 do Zabbixu 8.0
 
+![Debian 13 a Zabbix monitoring](Images/ai-obrazek.jpg)
+
 Autor: kn3dl7
 
 Projekt vytvoří přes Vagrant virtuální stroj s Debianem 13 (box `bento/debian-13`, VirtualBox), nainstaluje do něj **Zabbix Agent 2 verze 8.0 LTS** z oficiálního repozitáře Zabbixu a nastaví ho tak, aby se sám zaregistroval na server `enceladus.pfsense.cz`. Pro auto-registraci agent posílá `HostMetadata=SPOS`.
