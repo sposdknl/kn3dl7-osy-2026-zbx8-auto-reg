@@ -1,6 +1,5 @@
 #!/bin/bash
 set -euo pipefail
-export DEBIAN_FRONTEND=noninteractive
 
 # Základní nástroje pro správu a diagnostiku.
 apt-get update
