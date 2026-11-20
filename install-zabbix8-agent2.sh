@@ -1,6 +1,5 @@
 #!/bin/bash
 set -euo pipefail
-export DEBIAN_FRONTEND=noninteractive
 
 version=$(dpkg-query -W -f='${Version}' zabbix-agent2 2>/dev/null || true)
 
